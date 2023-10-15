@@ -1,0 +1,17 @@
+.main-card-div {
+    background: #F4F5F8;
+    padding-inline: 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-column-start: 1;
+    grid-column-start: 5;
+    column-gap: .2rem;
+    row-gap: 1rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .main-card-div {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

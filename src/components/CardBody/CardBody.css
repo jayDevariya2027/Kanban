@@ -1,0 +1,96 @@
+.card-body {
+    /* border: 2px solid brown; */
+    border-radius: .2rem;
+    background: #fff !important;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 1rem;
+}
+
+.dashoutlined-icon {
+    color: #000 !important;
+}
+
+.cb-head {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.cb-head-id {
+    /* border: 2px solid rgb(80, 8, 8); */
+    color: #636e72 !important;
+}
+
+.cb-head-avtar {
+    /* border: 2px solid rgb(0, 255, 221); */
+    margin-left: auto;
+}
+
+.cb-title {
+    /* border: 2px solid blue; */
+    font-weight: 600;
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.cb-footer {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    padding-block: .5rem;
+    padding-right: .5rem;
+}
+
+.cb-footer-icon {
+    border: 2px solid #636e7222;
+    color: #fff !important;
+    border-radius: .2rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.span-info-icon {
+    /* padding: .1rem; */
+    width: 1rem;
+    height: 1rem;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cb-footer-txt {
+    border: 2px solid #636e7222;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    padding-block: .4rem;
+    padding-inline: .3rem;
+}
+
+.span-txt {
+    background: #636e7259;
+    border-radius: 5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.txt {
+    margin-left: .5rem;
+}
+
+/* ant-design overwrite */
+.ant-checkbox-inner {
+    border-radius: 5rem !important;
+}
+
+.ant-checkbox-inner-custom {
+    background-color: #3c40c6 !important;
+}

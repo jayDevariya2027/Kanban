@@ -1,0 +1,46 @@
+/* RootLayout */
+/* .navs-div {
+    border: 2px solid red !important;
+    display: flex;
+    align-items: center;
+}
+ */
+
+.main-dd-div {
+    /* border: 2px solid red; */
+    padding: 1rem;
+    background: #fff !important;
+}
+
+.dropdown {
+    border: 2px solid #e0e2e8;
+    padding-block: .3rem;
+    padding-inline: .5rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    font-weight: 600;
+}
+
+
+.dd_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dd_item_title {
+    margin-right: 1rem;
+}
+
+/* .custom-active {
+    color: #1677ff;
+    background-color: #e6f4ff;
+} */
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-selected,
+:where(.css-dev-only-do-not-override-amq5gd).ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-selected,
+:where(.css-dev-only-do-not-override-amq5gd).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-selected,
+:where(.css-dev-only-do-not-override-amq5gd).ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title-selected {
+    color: #1677ff;
+    background-color: #e6f4ff;
+}
